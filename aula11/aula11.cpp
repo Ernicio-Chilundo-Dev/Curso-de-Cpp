@@ -26,7 +26,7 @@ int main()
     // 1 = verdadeiro / true
     // 0 = falso / false
 
-    if(num){
+    if(!num){
         cout << "Vou ao clube";
     }else{
         cout << "Vou ao cinema";   
