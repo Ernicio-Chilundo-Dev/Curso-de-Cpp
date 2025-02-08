@@ -5,7 +5,7 @@ int fibonacci(int n);
 int main()
 {
     int val, res;
-    val = 8;
+    val = 10;
     res = factorial(val);
     cout << "Factorial de " << val << ": " << res;
 
