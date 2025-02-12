@@ -1,6 +1,23 @@
 #include <iostream>
 using namespace std;
-int main(){
+int main()
+{
+    int *p;
+    int vetor[10];
+
+    p = &vetor[0];
+    *p = 10;
+    cout << "\n"<< vetor[0] << "\n";
+
+    *(p += 1);
+    *p = 20;
+
+    cout << vetor[1] << "\n";
+
+    *(p += 1);
+    *p = 40;
+
+    cout << vetor[2] << "\n";
 
     return 0;
 }
